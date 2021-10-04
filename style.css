@@ -1,17 +1,37 @@
 html,
 body,
 * {
-  padding: 0%;
-  margin: 0%;
-  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
   font-size: 62.5%;
+  box-sizing: border-box;
+}
+.header {
+  background-color: pink;
+  height: 90vh;
+}
+.header-title {
+  color: powderblue;
+  font-size: 10rem;
+  text-align: center;
+  padding-top: 10vh;
 }
 .parent {
-  font-size: 30px;
   display: flex;
+  font-size: 4rem;
   justify-content: space-around;
 }
 .child {
-  border: 1px solid red;
-  width: 28%;
+  border: 2px blue solid;
+  align-items: center;
+
+  width: 28vw;
+}
+.image-col {
+  display: flex;
+  justify-content: space-around;
+}
+.steven {
+  margin-top: 3rem;
+  border: black 2px solid;
 }
