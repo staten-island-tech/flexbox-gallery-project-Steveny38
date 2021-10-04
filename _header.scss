@@ -1,0 +1,10 @@
+@import "_variables";
+.header {
+  background-color: $primary-color;
+  height: 10vh;
+  color: #fff;
+}
+.header-title {
+  font-size: 8rem;
+  text-align: center;
+}
