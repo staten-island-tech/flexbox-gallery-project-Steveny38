@@ -7,6 +7,7 @@ body,
   box-sizing: border-box;
 }
 .header {
+  padding-top: 5rem;
   background-color: black;
   height: 90vh;
   border: solid 3px darkslategrey;
@@ -19,35 +20,22 @@ body,
 .second-page {
   padding-top: 10rem;
   margin-top: 10vh;
+  display: flex;
+  justify-content: space-around;
   background-color: black;
   height: 100vh;
 }
-.songs-img {
-  display: flex;
-  flex-direction: row;
+.card {
   justify-content: space-around;
-}
 
-.album-covers {
-  display: flex;
-
-  height: 30rem;
-  width: 30rem;
+  background-image: "risealbum.jpg";
 }
-
-.image-col {
-  display: flex;
-  justify-content: space-around;
-}
-.steven {
-  margin-top: 3rem;
-  border: black 2px solid;
-}
-.song-info {
-  color: darkgreen;
-  font-size: 10rem;
-  display: flex;
-  justify-content: space-around;
+.card-header {
   text-align: center;
-  flex-shrink: initial;
+  font-size: 7rem;
+  color: green;
 }
+.card-2 {
+  justify-content: space-around;
+
+  background-image: 
