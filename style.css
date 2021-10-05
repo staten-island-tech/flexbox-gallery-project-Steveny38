@@ -7,26 +7,34 @@ body,
   box-sizing: border-box;
 }
 .header {
-  background-color: pink;
+  background-color: black;
   height: 90vh;
+  border: solid 3px darkslategrey;
 }
 .header-title {
-  color: powderblue;
+  color: green;
   font-size: 10rem;
   text-align: center;
-  padding-top: 10vh;
 }
-.parent {
+.second-page {
+  padding-top: 10rem;
+  margin-top: 10vh;
+  background-color: black;
+  height: 100vh;
+}
+.songs-img {
   display: flex;
-  font-size: 4rem;
+  flex-direction: row;
   justify-content: space-around;
 }
-.child {
-  border: 2px blue solid;
-  align-items: center;
 
-  width: 28vw;
+.album-covers {
+  display: flex;
+
+  height: 30rem;
+  width: 30rem;
 }
+
 .image-col {
   display: flex;
   justify-content: space-around;
@@ -34,4 +42,12 @@ body,
 .steven {
   margin-top: 3rem;
   border: black 2px solid;
+}
+.song-info {
+  color: darkgreen;
+  font-size: 10rem;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  flex-shrink: initial;
 }
