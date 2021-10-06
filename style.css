@@ -27,15 +27,30 @@ body,
 }
 .card {
   justify-content: space-around;
-
-  background-image: "risealbum.jpg";
 }
 .card-header {
   text-align: center;
   font-size: 7rem;
   color: green;
+  border: 5px solid darkgreen;
 }
-.card-2 {
-  justify-content: space-around;
 
-  background-image: 
+.card-img {
+  height: 50%;
+  width: 100%;
+}
+.third-page {
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  background-color: darkgreen;
+}
+.next-rows {
+  padding-top: 10rem;
+
+  display: flex;
+  justify-content: space-around;
+  background-color: black;
+  height: 100vh;
+}
