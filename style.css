@@ -5,7 +5,6 @@ body,
   margin: 0;
   font-size: 62.5%;
   box-sizing: border-box;
-  background-color: darkgreen;
 }
 .header {
   padding-top: 5rem;
@@ -19,14 +18,18 @@ body,
   background-color: black;
 }
 .second-page {
-  padding-top: 10rem;
-  margin-top: 10vh;
+  margin: 1rem auto;
+
   display: flex;
-  justify-content: space-around;
-  background-color: black;
+  flex-wrap: wrap;
+  width: 80vw;
+  background-color: blue;
+  justify-content: space-evenly;
 }
 .card {
-  justify-content: space-around;
+  height: 30rem;
+  width: 30%;
+  margin: 3rem auto;
 }
 .card-header {
   background-color: black;
@@ -34,30 +37,9 @@ body,
   font-size: 7rem;
   color: green;
   border: 5px solid darkgreen;
+  margin-bottom: 5rem;
 }
-
 .card-img {
-  height: 50vh;
-  width: 25vw;
-}
-.third-page {
-  display: flex;
-  flex-direction: column;
-  background-color: darkgreen;
-  height: 100vh;
-}
-.next-page {
-  padding-top: 10rem;
-
-  display: flex;
-  justify-content: space-around;
-  background-color: black;
-}
-.final-page {
-  padding-top: 10rem;
-  padding-bottom: 2%;
-  display: flex;
-  justify-content: space-around;
-  background-color: black;
-  margin-bottom: 10vh;
+  width: 100%;
+  height: fit-content;
 }
