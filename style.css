@@ -6,6 +6,9 @@ body,
   font-size: 62.5%;
   box-sizing: border-box;
 }
+body {
+  background-color: #fff;
+}
 .header {
   padding-top: 5rem;
   background-color: black;
@@ -23,13 +26,13 @@ body,
   display: flex;
   flex-wrap: wrap;
   width: 80vw;
-  background-color: blue;
+
   justify-content: space-evenly;
 }
 .card {
-  height: 30rem;
   width: 30%;
   margin: 3rem auto;
+  box-shadow: 0 15px 5px 0 rgba(0, 0, 0, 0.2), 0 15px 5px 0 rgba(0, 0, 0, 0.19);
 }
 .card-header {
   background-color: black;
@@ -37,7 +40,6 @@ body,
   font-size: 7rem;
   color: green;
   border: 5px solid darkgreen;
-  margin-bottom: 5rem;
 }
 .card-img {
   width: 100%;
