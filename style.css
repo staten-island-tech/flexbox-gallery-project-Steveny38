@@ -33,6 +33,7 @@ body {
   width: 30%;
   margin: 3rem auto;
   box-shadow: 0 15px 5px 0 rgba(0, 0, 0, 0.2), 0 15px 5px 0 rgba(0, 0, 0, 0.19);
+  transition: 0.3s;
 }
 .card-header {
   background-color: black;
@@ -44,4 +45,33 @@ body {
 .card-img {
   width: 100%;
   height: fit-content;
+}
+
+.card:hover {
+  transform: scale(1.1);
+}
+.card:active {
+  transform: scale(0.5);
+}
+.form {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+.button {
+  font-size: 3rem;
+  background-color: #04aa6d;
+  border: none;
+  color: black;
+  padding: 1rem;
+  text-align: center;
+
+  border-radius: 2rem;
+  transition: all 0.3s;
+}
+.button:hover {
+  transform: scale(1.1);
+  color: white;
+}
+.second-page:hover .card:not(:hover) {
+  opacity: 0.3;
 }
