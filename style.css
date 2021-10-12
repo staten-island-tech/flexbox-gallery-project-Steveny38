@@ -12,13 +12,13 @@ body {
 .header {
   padding-top: 5rem;
   background-color: black;
-  height: 90vh;
+  height: 45vh;
 }
 .header-title {
   color: green;
   font-size: 10rem;
   text-align: center;
-  background-color: black;
+  transition: all 0.6s;
 }
 .second-page {
   margin: 1rem auto;
@@ -74,4 +74,56 @@ body {
 }
 .second-page:hover .card:not(:hover) {
   opacity: 0.3;
+}
+.header-title:hover {
+  transform: skew(-15deg, -20deg);
+}
+.header-title:active {
+  transform: skew(15deg, 20deg);
+}
+.dot {
+  height: 25px;
+  width: 25px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  animation: test 4s infinite;
+}
+.animation {
+  height: 25px;
+  width: 25px;
+  background-color: black;
+  border-radius: 50%;
+  position: absolute;
+}
+@keyframes test {
+  0% {
+    left: 50%;
+    bottom: 10%;
+    background-color: red;
+  }
+
+  25% {
+    left: 50%;
+    bottom: 20%;
+    background-color: blue;
+  }
+
+  50% {
+    left: 55%;
+    bottom: 20%;
+    background-color: yellow;
+  }
+
+  75% {
+    left: 55%;
+    bottom: 10%;
+    background-color: green;
+  }
+
+  100% {
+    left: 50%;
+    bottom: 10%;
+    background-color: lightblue;
+  }
 }
