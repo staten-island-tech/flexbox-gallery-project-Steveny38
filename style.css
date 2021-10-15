@@ -84,46 +84,32 @@ body {
 .dot {
   height: 25px;
   width: 25px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  animation: test 4s infinite;
-}
-.animation {
-  height: 25px;
-  width: 25px;
   background-color: black;
   border-radius: 50%;
   position: absolute;
+  animation: test 4s infinite;
 }
 @keyframes test {
   0% {
-    left: 50%;
-    bottom: 10%;
+    left: 37%;
+    bottom: 80%;
     background-color: red;
   }
 
-  25% {
-    left: 50%;
-    bottom: 20%;
-    background-color: blue;
-  }
-
   50% {
-    left: 55%;
-    bottom: 20%;
+    left: 61%;
+    bottom: 80%;
     background-color: yellow;
   }
 
-  75% {
-    left: 55%;
-    bottom: 10%;
-    background-color: green;
-  }
-
   100% {
-    left: 50%;
-    bottom: 10%;
+    left: 37%;
+    bottom: 80%;
     background-color: lightblue;
+  }
+}
+@media (max-width: 1500px) {
+  body {
+    color: blue;
   }
 }
