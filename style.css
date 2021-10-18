@@ -108,8 +108,23 @@ body {
     background-color: lightblue;
   }
 }
-@media (max-width: 1500px) {
-  body {
-    color: blue;
+
+@media only screen and (max-width: 1420px) {
+  .card {
+    width: 45%;
+  }
+}
+@media only screen and (max-width: 950px) {
+  .card {
+    width: 70%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .card-header {
+    font-size: 5rem;
+  }
+  .card {
+    width: 90%;
   }
 }
